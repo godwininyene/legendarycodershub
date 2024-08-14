@@ -19,11 +19,6 @@ $(document).ready(function(){
 		offset: '60px;'
 	});
 
-	// $('#section-courses').waypoint(function(direction){
-	// 	$('.link-1').toggleClass('active');
-	// 	// alert('We have enter into the course section');
-	// });
-
 	
 	/* Scroll To Section*/
 	$('a').click(function(event){
@@ -38,18 +33,6 @@ $(document).ready(function(){
 		}
 	});
 
-	/* Animation on Scroll */
-
-	// $('.js-wp-1').waypoint(function(direction){
-	// 	$('.js-wp-1').addClass('animate__animated animate__fadeInLeft');
-	// }, {
-	// 	offset: '70%'
-	// });
-
-	// $('.js-wp-2').waypoint(function(direction){
-	// 	$('.js-wp-2').addClass('animate__animated  animate__fadeInRight');
-	// }, {
-	// 	offset: '70%'
-	// });
-
+	// Animation on scroll Instances
+	AOS.init();
 });
