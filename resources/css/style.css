@@ -377,7 +377,7 @@ input[type=submit]:hover{
 	top: 10rem;
 }
 .composition .composition-photo:hover{
-	outline: 1.5rem solid#1e90ff;
+	outline: 1.5rem solid var(--light-blue);
 	transform: scale(1.05) translateY(-.5rem);
 	box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
 	z-index: 20;
